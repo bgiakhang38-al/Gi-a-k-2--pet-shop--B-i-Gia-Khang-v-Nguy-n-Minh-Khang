@@ -295,3 +295,87 @@ body {
 html{
 scroll-behavior:smooth;
 }
+@media (max-width: 768px) {
+
+.container{
+width:95%;
+}
+.header .container{
+flex-direction:column;
+gap:10px;
+}
+
+.nav ul{
+flex-wrap:wrap;
+justify-content:center;
+gap:15px;
+}
+.hero-content h1{
+font-size:32px;
+}
+
+.hero-content p{
+font-size:16px;
+}
+.banner-content{
+flex-direction:column;
+text-align:center;
+}
+
+.banner-img img{
+width:100%;
+max-width:350px;
+}
+.small-banner-grid{
+grid-template-columns:1fr;
+}
+.newsletter-form{
+display:flex;
+flex-direction:column;
+gap:10px;
+align-items:center;
+}
+
+.newsletter-form input{
+width:80%;
+}
+
+}
+@media (max-width: 480px) {
+.logo{
+font-size:20px;
+}
+.nav ul{
+gap:10px;
+font-size:14px;
+}
+.hero{
+height:auto;
+padding:80px 20px;
+}
+
+.hero-content h1{
+font-size:26px;
+}
+
+.hero-content p{
+font-size:14px;
+}
+.btn,
+.btn-hero{
+padding:8px 18px;
+font-size:14px;
+}
+.product-grid,
+.new-product-grid{
+grid-template-columns:1fr;
+}
+.feature-grid{
+grid-template-columns:1fr;
+}
+.footer-grid{
+grid-template-columns:1fr;
+text-align:center;
+}
+
+}
